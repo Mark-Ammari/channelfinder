@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/channelfinder/static/css/main.b5c2608b.chunk.css",
+    "main.js": "/channelfinder/static/js/main.5f42e15d.chunk.js",
+    "main.js.map": "/channelfinder/static/js/main.5f42e15d.chunk.js.map",
+    "runtime-main.js": "/channelfinder/static/js/runtime-main.74d8a658.js",
+    "runtime-main.js.map": "/channelfinder/static/js/runtime-main.74d8a658.js.map",
+    "static/js/2.1ee45647.chunk.js": "/channelfinder/static/js/2.1ee45647.chunk.js",
+    "static/js/2.1ee45647.chunk.js.map": "/channelfinder/static/js/2.1ee45647.chunk.js.map",
+    "index.html": "/channelfinder/index.html",
+    "precache-manifest.1047450f7e2accf6574e976414a790ed.js": "/channelfinder/precache-manifest.1047450f7e2accf6574e976414a790ed.js",
+    "service-worker.js": "/channelfinder/service-worker.js",
+    "static/css/main.b5c2608b.chunk.css.map": "/channelfinder/static/css/main.b5c2608b.chunk.css.map",
+    "static/js/2.1ee45647.chunk.js.LICENSE": "/channelfinder/static/js/2.1ee45647.chunk.js.LICENSE",
+    "static/media/fubotv.svg": "/channelfinder/static/media/fubotv.327651b3.svg",
+    "static/media/github.svg": "/channelfinder/static/media/github.bef99f4f.svg",
+    "static/media/sourcecode.svg": "/channelfinder/static/media/sourcecode.da9c79e2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74d8a658.js",
+    "static/js/2.1ee45647.chunk.js",
+    "static/css/main.b5c2608b.chunk.css",
+    "static/js/main.5f42e15d.chunk.js"
+  ]
+}
