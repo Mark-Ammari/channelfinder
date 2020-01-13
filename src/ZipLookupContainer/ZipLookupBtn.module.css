@@ -1,0 +1,19 @@
+.ZipLookupBtn button {
+    background: #F0F0F0;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    border: 1px solid #1c1c1c;
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ZipLookupBtn button:focus {
+    border: red;
+}
+
+@media only screen and (max-width: 450px) {
+    
+}

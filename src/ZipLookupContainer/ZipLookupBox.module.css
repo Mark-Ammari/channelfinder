@@ -1,0 +1,17 @@
+.ZipLookupBox input {
+    border: 1px solid #1c1c1c;
+    border-radius: 2px;
+    background: #3a3e3f;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+    margin: 0.5em
+}
+
+@media only screen and (max-width: 450px) {
+    .ZipLookupBox input {
+        width: 200px;
+    }
+}
