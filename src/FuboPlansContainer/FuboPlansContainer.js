@@ -9,7 +9,7 @@ class FuboPlansContainer extends Component {
         return (
             <div className={classes.FuboPlansContainer}>
                 {this.props.fuboPlans.data[this.props.value]["default_package"]["channels"].map((channel, index) => {
-                    return <FuboChannel description={channel.meta.description} key={index} local={channel.tags.includes("local")} img={channel.meta.networkLogoOnDarkUrl} channelname={channel.meta.networkName} callsign={channel.meta.callSign} />
+                    return <FuboChannel description={channel.meta.description || "No Description."} key={index} local={channel.tags.includes("local")} img={channel.meta.networkLogoOnDarkUrl} channelname={channel.meta.networkName} callsign={channel.meta.callSign} />
                 })}
             </div>
         );
