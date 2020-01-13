@@ -28,13 +28,13 @@ const fuboPlanReducer = (state = initialState, action) => {
                 loading: false,
                 show: false
             };
-        case actionTypes.CHANGE_TAB_VALUE: {
+        case actionTypes.CHANGE_TAB_VALUE:
             return {
                 ...state,
-                value: action.value,
+                value: action.value
             };
-        };
-        default: return state
+        default: 
+            return state
     };
 };
 

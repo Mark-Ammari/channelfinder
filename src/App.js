@@ -10,21 +10,13 @@ import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
-
-    let load = null 
-
-    if (this.props.loading) {
-      load = <Loader />
-    } else {
-      load = <FuboPlansContainer />
-    }
-
     return (
       <div className="App">
         <Header />
         <ZipLookupContainer />
         <FuboTabs />
-        {this.props.show ? load : null}
+        {this.props.loading ? <Loader /> : null}
+        {this.props.show ? <FuboPlansContainer /> : null}
         <div className="Separate"></div>
         <Footer />
       </div>
