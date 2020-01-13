@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a7bd1b8b2f475bb8bf68763e6f60c23",
+    "revision": "a2c1e235e7a2c343f7e6b7503ff0a4f5",
     "url": "/channelfinder/index.html"
   },
   {
-    "revision": "dad68ef907680a999008",
+    "revision": "4a6492270531e9980c3c",
     "url": "/channelfinder/static/css/main.b5c2608b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/channelfinder/static/js/2.1ee45647.chunk.js.LICENSE"
   },
   {
-    "revision": "dad68ef907680a999008",
-    "url": "/channelfinder/static/js/main.5f42e15d.chunk.js"
+    "revision": "4a6492270531e9980c3c",
+    "url": "/channelfinder/static/js/main.0f4112e6.chunk.js"
   },
   {
     "revision": "c4b879f49f1197895bd8",
