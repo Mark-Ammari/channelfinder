@@ -35,6 +35,21 @@ class zipLookupContainer extends Component {
             })
         }
     }
+    handleKeyPress = (e) => {
+        if (this.isValidZipHandler(this.state.postalCode)) {
+            if(e.key === 'Enter'){
+                this.props.onFetchFuboPlans(this.state.postalCode)
+                this.setState(prevState => ({
+                    show: !prevState.show,
+                    isValid: true
+                }))
+              }
+        } else {
+            this.setState({
+                isValid: false
+            })
+        }
+    }
 
     render() {
         return (
@@ -43,8 +58,8 @@ class zipLookupContainer extends Component {
                 <div className={classes.ZipLookupContainer}>
                     <p className={classes.Zipcode}>ZIPCODE</p>
                     <div className={classes.ZipLookup}>
-                        <ZipLookupBox placeholder="000000" value={this.state.postalCode} onChange={this.zipLookupHandler}/>
-                        <ZipLookupBtn onClick={this.zipFetchHandler}/>
+                        <ZipLookupBox placeholder="000000" value={this.state.postalCode} onChange={this.zipLookupHandler} onKeyPress={this.handleKeyPress}/>
+                        <ZipLookupBtn onClick={this.zipFetchHandler} />
                     </div>
                     {this.state.isValid ? null : <p className={classes.Error}>Please enter a valid zipcode</p>}
                 </div>
