@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/channelfinder/static/css/main.b5c2608b.chunk.css",
-    "main.js": "/channelfinder/static/js/main.0f4112e6.chunk.js",
-    "main.js.map": "/channelfinder/static/js/main.0f4112e6.chunk.js.map",
+    "main.js": "/channelfinder/static/js/main.c01325ef.chunk.js",
+    "main.js.map": "/channelfinder/static/js/main.c01325ef.chunk.js.map",
     "runtime-main.js": "/channelfinder/static/js/runtime-main.74d8a658.js",
     "runtime-main.js.map": "/channelfinder/static/js/runtime-main.74d8a658.js.map",
     "static/js/2.1ee45647.chunk.js": "/channelfinder/static/js/2.1ee45647.chunk.js",
     "static/js/2.1ee45647.chunk.js.map": "/channelfinder/static/js/2.1ee45647.chunk.js.map",
     "index.html": "/channelfinder/index.html",
-    "precache-manifest.a80153b7f6cb22c4e221d39c196aed12.js": "/channelfinder/precache-manifest.a80153b7f6cb22c4e221d39c196aed12.js",
+    "precache-manifest.bdebe61e71bd3fd037c5aeff61f425ed.js": "/channelfinder/precache-manifest.bdebe61e71bd3fd037c5aeff61f425ed.js",
     "service-worker.js": "/channelfinder/service-worker.js",
     "static/css/main.b5c2608b.chunk.css.map": "/channelfinder/static/css/main.b5c2608b.chunk.css.map",
     "static/js/2.1ee45647.chunk.js.LICENSE": "/channelfinder/static/js/2.1ee45647.chunk.js.LICENSE",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.74d8a658.js",
     "static/js/2.1ee45647.chunk.js",
     "static/css/main.b5c2608b.chunk.css",
-    "static/js/main.0f4112e6.chunk.js"
+    "static/js/main.c01325ef.chunk.js"
   ]
 }
